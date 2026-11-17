@@ -1,0 +1,42 @@
+{
+    "name": "@epsimoai/leadgenius-api",
+    "version": "2.0.6",
+    "description": "LeadGenius Pro API Skill — B2B lead and client management with Cognito JWT auth (cookies + Bearer + API key). Includes E2E test suite.",
+    "main": "skills/leadgenius-api/SKILL.md",
+    "bin": {
+        "lgp": "./skills/leadgenius-api/scripts/lgp.py",
+        "leadgenius": "./skills/leadgenius-api/scripts/lgp.py",
+        "lgp-auth": "./skills/leadgenius-api/scripts/auth.py",
+        "lgp-test": "./skills/leadgenius-api/scripts/test_api.py"
+    },
+    "scripts": {
+        "test": "python3 skills/leadgenius-api/scripts/test_api.py",
+        "auth": "python3 skills/leadgenius-api/scripts/auth.py",
+        "api": "python3 skills/leadgenius-api/scripts/api_call.py"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/epsimoai/leadgenius-api.git"
+    },
+    "keywords": [
+        "agent-skill",
+        "leadgenius",
+        "ai-agent",
+        "abm",
+        "lead-generation",
+        "b2b",
+        "lead-enrichment",
+        "sales-automation"
+    ],
+    "author": "Epsimo AI",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/epsimoai/leadgenius-api/issues"
+    },
+    "homepage": "https://github.com/epsimoai/leadgenius-api#readme",
+    "files": [
+        "skills/",
+        "LICENSE",
+        "README.md"
+    ]
+}
